@@ -13,3 +13,10 @@
 
 // Plain task: Return list of birds that not in the list of geese.
 
+// Had checked the solution. 20min rule :) 
+
+// Other solution
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(b => !geese.includes(b));
+};
