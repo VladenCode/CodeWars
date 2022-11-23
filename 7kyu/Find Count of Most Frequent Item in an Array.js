@@ -4,6 +4,8 @@
 // input array: [3, -1, -1, -1, 2, 3, -1, 3, -1, 2, 4, 9, 3]
 // ouptut: 5
 
+// Resource: https://amjustsam.medium.com/how-to-find-most-frequent-item-of-an-array-12015df68c65
+
 function mostFrequentItemCount(collection) {
   // Do your magic. :)
 
