@@ -9,6 +9,16 @@ function isPangram(string) {
   return newString.length === 26 ? true : false;
 }
 
+/*
+[?]:  
+The regex menaing(/[^A-Za-z]+/g):
+    - /.../ : syntax of regex
+    - "A-Za-z" : will match strings that "begin with" any number (including zero) of letters or spaces.
+    - ^ means : 'start of string'
+    - + means : 'one or more', so it won't match zero characters.
+    - /g means : The 'g' flag indicates that the regular expression should be tested against all possible matches in a string. Without the 'g' flag, it'll only test for the first.
+*/
+
 // Other solution (goal to get here...need to look up regex! Can do so here: https://regexr.com/)
 
 function isPangram(string) {

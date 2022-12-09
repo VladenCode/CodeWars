@@ -15,6 +15,11 @@ function alphabetPosition(text) {
   return arrText.map((e) => (e = e.charCodeAt() - 96)).join(' ');
 }
 
+/*
+[?]
+    - charCodeAt() means: The method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+*/
+
 // Other solution
 let alphabetPosition = (text) =>
   text
