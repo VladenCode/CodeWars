@@ -49,3 +49,7 @@ function bouncingBall(h, bounce, window) {
   var newHeight = h * bounce;
   return bouncingBall(newHeight, bounce, window) + 2;
 }
+//[?]
+/*
+Here, clever recursion solution. While you keep multiplying 'h' with 'bounce', eventually it'll get smaller than 'window', in which case the recursion will stop and return -1.
+*/
