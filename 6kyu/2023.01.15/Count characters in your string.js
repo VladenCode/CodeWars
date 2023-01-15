@@ -2,7 +2,7 @@
 
 // What if the string is empty? Then the result should be empty object literal, {}.
 
-// function count (string) {  
+// function count (string) {
 //   // The function code should be here
 //    const obj = {};
 //    const arr = string.split('')
@@ -14,9 +14,6 @@
 
 const count = (string) => {
   const obj = {};
-  string.split('').forEach(e => obj[e] = (obj[e] || 0) + 1)
+  string.split('').forEach((e) => (obj[e] = (obj[e] || 0) + 1));
   return obj;
-  }
-
-  //Other solution:
-
+};
